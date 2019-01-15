@@ -1,13 +1,42 @@
 #include <stdio.h>
 
-int main(){
-    int qian=0;
+int main()
+{
+    int qian = 0;
     printf("jinrucunqianquqianxitong");
-while(1){
-    int a=0;
-    printf("1---cunqian");
-    printf("1---cunqian");
-}
-    return 0;
+    while (1)
+    {
+        int code = 0;
+        printf("1---cunqian\n");
+        printf("2---quqian\n");
+        printf("3---xianshijine\n");
+        printf("2---tuichuchengxu\n");
 
+        printf("qingshurugongnengbainhao\n");
+        scanf("%d", &code);
+
+        if (code == 1)
+        {
+            printf("jinrucunqianxitong\n");
+            int cun;
+            scanf("%d",&cun);
+            qian += cun;
+            printf("cunqianchenggong,dianjihuichejixu:\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
+
+        }
+        if (code == 2)
+        {
+        }
+        if (code == 3)
+        {
+        }
+        if (code == 4)
+        {
+        }
+    }
+
+    return 0;
 }
