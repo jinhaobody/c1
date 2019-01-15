@@ -19,16 +19,32 @@ int main()
         {
             printf("jinrucunqianxitong\n");
             int cun;
-            scanf("%d",&cun);
+            scanf("%d", &cun);
             qian += cun;
             printf("cunqianchenggong,dianjihuichejixu:\n");
             char x;
-            scanf("%c",&x);
-            scanf("%c",&x);
-
+            scanf("%c", &x);
+            scanf("%c", &x);
         }
         if (code == 2)
         {
+            printf("jinruquqianxiguanlixitong:\n");
+            int qu;
+            scanf("%d",&qu);
+            if (qian<qu)
+            {
+                printf("yuebuzu,quqianshibai,dianjihuichejixu:\n");
+                char x;
+                scanf("%c", &x);
+                scanf("%c", &x);
+            }
+            else{
+                    qian-=qu;
+                    printf("quqianchenggong,dianjihuichejixu:\n");
+                    char x;
+                    scanf("%c", &x);
+                    scanf("%c", &x);
+                }
         }
         if (code == 3)
         {
