@@ -30,24 +30,30 @@ int main()
         {
             printf("jinruquqianxiguanlixitong:\n");
             int qu;
-            scanf("%d",&qu);
-            if (qian<qu)
+            scanf("%d", &qu);
+            if (qian < qu)
             {
                 printf("yuebuzu,quqianshibai,dianjihuichejixu:\n");
                 char x;
                 scanf("%c", &x);
                 scanf("%c", &x);
             }
-            else{
-                    qian-=qu;
-                    printf("quqianchenggong,dianjihuichejixu:\n");
-                    char x;
-                    scanf("%c", &x);
-                    scanf("%c", &x);
-                }
+            else
+            {
+                qian -= qu;
+                printf("quqianchenggong,dianjihuichejixu:\n");
+                char x;
+                scanf("%c", &x);
+                scanf("%c", &x);
+            }
         }
         if (code == 3)
         {
+            printf("jinruxianshijine xitong:\n");
+            printf("nindejinewei%d，dainjihuichejixu\n", qian);
+            char x;
+            scanf("%c", &x);
+            scanf("%c", &x);
         }
         if (code == 4)
         {
