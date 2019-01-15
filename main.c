@@ -10,7 +10,7 @@ int main()
         printf("1---cunqian\n");
         printf("2---quqian\n");
         printf("3---xianshijine\n");
-        printf("2---tuichuchengxu\n");
+        printf("4---tuichuchengxu\n");
 
         printf("qingshurugongnengbainhao\n");
         scanf("%d", &code);
@@ -57,6 +57,8 @@ int main()
         }
         if (code == 4)
         {
+            printf("dainjihuichetuchuchengxu:\n");
+            break;
         }
     }
 
